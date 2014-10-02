@@ -1,0 +1,6 @@
+Abstract
+===================================
+
+Facilities expenditures, such as equipment maintenance or space cleaning, constitute a big slice of organizations base cost. Mod- ern Facilities Management employs specific software such as Computer Aided Facility Management Software to identify and optimize facilities performance by benchmarking different categories of the non-core busi- ness indicators.
+A pervasive problem, however, is that organizations do not know whether they can bring those optimizations to new levels of performance, i.e. they do not know if their FM practice is in line with the performance of the best in their industry. Overall, there is a need for a benchmarking solution that could bring FM indicators of distinct facilities together, identifying the contrasts and similarities between them.
+This thesis studies the problem of FM benchmarking and proposes a cloud-based solution to integrate KPI of distinct facilities. Using this so- lution, organizations can track their ranking in relation to other organiza- tions, and know if they can further optimize their Facilities Management practice.
