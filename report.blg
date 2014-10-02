@@ -1,0 +1,83 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: report.aux
+The style file: ieeetr.bst
+Database file #1: books.bib
+I was expecting a `,' or a `}'---line 31 of file books.bib
+ : 
+ : pages={397-408},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 109 of file books.bib
+ :   
+ :   isbn = {978 1 84219 332 7}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 116 of file books.bib
+ :   
+ :   isbn = {92-67-10405-5}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 123 of file books.bib
+ :   
+ :   publisher={{BCIS}},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 138 of file books.bib
+ :   
+ :   journal={{Selection Criteria Details for Intelligent Business Process Management Suites}},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 142 of file books.bib
+ : 
+ : %Author = {{LIFX}},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Database file #2: library.bib
+Warning--empty publisher in Atkin2009
+Warning--empty publisher in May2012
+Warning--empty publisher in Camp1989
+Warning--empty publisher in Parmenter2007
+Warning--empty year in Eynde1997
+You've used 38 entries,
+            1876 wiz_defined-function locations,
+            697 strings with 9148 characters,
+and the built_in function-call counts, 6874 in all, are:
+= -- 647
+> -- 202
+< -- 0
++ -- 90
+- -- 52
+* -- 358
+:= -- 954
+add.period$ -- 43
+call.type$ -- 38
+change.case$ -- 29
+chr.to.int$ -- 0
+cite$ -- 43
+duplicate$ -- 355
+empty$ -- 811
+format.name$ -- 52
+if$ -- 1730
+int.to.chr$ -- 0
+int.to.str$ -- 38
+missing$ -- 25
+newline$ -- 122
+num.names$ -- 38
+pop$ -- 175
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 252
+stack$ -- 0
+substring$ -- 292
+swap$ -- 112
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 5
+while$ -- 61
+width$ -- 40
+write$ -- 309
+(There were 6 error messages)

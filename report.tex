@@ -1,0 +1,84 @@
+
+
+\documentclass{./llncs2e/llncs}
+%\documentclass[oneside]{book}
+
+
+\usepackage[portuguese, english]{babel} % Português
+\usepackage[utf8]{inputenc}
+\setcounter{secnumdepth}{3}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\renewcommand{\labelitemi}{$\bullet$}
+\usepackage[inline]{enumitem}
+\usepackage{multirow}
+\usepackage{chngpage}
+\usepackage{pdflscape}
+\usepackage{rotating}
+\usepackage{eurosym}
+\usepackage{longtable}
+\usepackage{tabularx}
+
+%\usepackage[titletoc]{appendix}
+
+%\usepackage{fixltx2e}
+%\usepackage{mathtools}
+%\usepackage[nolist,nohyperlinks]{acronym}
+%\usepackage{amsmath}%
+%\usepackage{wasysym}
+%\usepackage{amsfonts}%
+%\usepackage{color} 
+%\usepackage{colortbl}
+%\usepackage{subfig}
+%\usepackage{url}
+%\usepackage{textcomp}
+%\usepackage{rotating}
+%\usepackage{threeparttable}
+%\usepackage{hyperref}
+%\usepackage[square,sort,comma,numbers, sort&compress]{natbib}
+%\usepackage{lscape}
+%\usepackage[table]{xcolor}
+%\definecolor{lightgray}{gray}{0.9}
+%\usepackage{tikz}
+%\usepackage{gantt}
+%\usepackage{mathtools}
+
+% Maintain images and tables within their respective sections
+\usepackage[section]{placeins}
+
+% 
+% Change the margins
+% 
+% \usepackage[margin=2.9cm]{geometry}
+
+\begin{document}
+\title{Cloud-based Facility Management Benchmarking}
+
+\author{Sofia Martins, \\ sofia.pereira.martins@ist.utl.pt}
+\institute{Instituto Superior Técnico}
+
+\maketitle
+
+\input{sections/1-abstract.tex}
+\input{sections/2-keywords.tex}
+\input{sections/3-introduction.tex}
+\input{sections/4-concepts.tex}
+\input{sections/5-related-work.tex}
+\input{sections/6-solution-proposal.tex}
+\input{sections/7-evaluation.tex}
+\input{sections/8-conclusions.tex}
+\bibliographystyle{ieeetr}
+\bibliography{books,library} 
+\newpage
+\appendix
+\input{sections/9-appendix.tex}
+
+
+
+% 
+% Bibliography
+% 
+
+%\bibliographystyle{plain} 
+
+\end{document}

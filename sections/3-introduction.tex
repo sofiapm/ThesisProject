@@ -1,0 +1,77 @@
+%!TEX root = ../report.tex
+
+% 
+% Introduction
+% 
+
+\section{Introduction}
+\label{Introduction}
+
+Facilities Management (FM) is a relatively new discipline, that started to be recognized in the 1970s. 
+FM is a non-core activity that supports an organization to achieve its objectives (core business), making the organization more efficient, by offering employees better working conditions and rationalizing expenditures related to the facility. Thus, FM contributes to the overall performance of the organization. 
+
+FM adoption has been growing steadily, and facilities expenditure is one of the biggest slice of the organizations base cost (maintenance costs are usually the second) \cite{Roka-Madarasz2010}.
+It is important to adopt systems to measure the effect of the FM on organizations core business, together with the ones which measure the FM own performance \cite{Pitt2008}.
+
+FM has tree main strands of activity: property management, property operations and maintenance, and office administration \cite{Pitt2008}, which are increasingly backed by specialized software such as Computer Aided Facility Management (CAFM), Building Information Models  (BIM), Computerized Maintenance Management Systems (CMMS), Computer Aided Design (CAD), Building Automation Systems (BAS), Energy Management Systems (EMS), Enterprise Resource Planning (ERP), Integrated Workspace Management System (IWMS) or some combination between them for a complementary usage. 
+
+Through some of these software applications it is possible to extract measures and indicators, and with them calculate Key Performance Indicators (KPI). These KPIs give important insight into functioning of the FM functions (keeping track of KPIs is one aspect of quality control)  \cite{Fitz-Gibbon1990}.
+
+Organizations have to perform better than their competitors, while operating at the lower costs. Thus, it is very important to be able to efectively compare infrastructures. With performance indicators is possible to perform a comparison between organizations. 
+
+Benchmarking can be defined as "part of a process which aims to establish the scope for, and benefits of, potential improvements in an organisation through systematic comparison of its performance with that of one or more other organizations" \cite{EN15221-7}. Benchmarking can be used either for comparison between distinct organizations or for comparison between facilities within the same organization, also a facility can be compared with itself at different time lines.
+
+Benchmarking brings many advantages:
+ \begin{enumerate*}[label=\itshape\roman{enumi})]
+  	\item justification of energy consumption, costs and practices,
+  	\item identification of weaknesses/ threats, strengths/ opportunities and best practices,
+  	\item addition of value to facilities integrating them in CAFM systems and supporting maintenance management. 
+\end{enumerate*}
+Therefore, benchmarking can be seen as an instrument to measure facilities performance, and performance indicators are very important for the FM benchmarking. 
+% The main facility-oriented benchmarking indicators are related to flexibility, space usage, maintenance management, safe environment and value for money \cite{Gilleard2004}.
+%Therefore, they are very important for the FM benchmarking.
+
+Up to now, the comparison between organization is not yet possible. Although some organizations have their own benchmarking software, this software is not compatible between distinct organizations. There is no centralized mechanism to integrate all these data. Results from them are not in the same format or have not the same KPIs. Furthermore, is still not clear which are the most important KPIs that should be used by each sector organizations. The same holds for the field of FM.
+
+Another recent trend is cloud solutions that are being employed successfully for benchmarking in sector such as financial, maintenance and space. There are several technologies that can be used such as Infrastructure as a Service (IaaS) where the consumer has the capability to acquire processing, storage, networks, and other fundamental computing resources, Platform as a Service (PaaS) where the consumer has the capability to deploy his solution onto the cloud infrastructure or Software as a Service (SaaS) where applications are accessible from various client devices \cite{Lenk2009}. 
+These cloud solutions present several benefits such as saving of IT costs and maintenance (since it is not necessary any installation of equipment or software, and neither their maintenance by the organization IT sector), strong integration capabilities, short time-to-benefit, and scalable computation on demand that keep up with the customer needs. Specifically in benchmarking, cloud applications permits a easier way for entering and process the data, and can be accessible by everyone and anywhere. 
+
+A benchmarking application that enables organizations to send facilities related information in standardized format to be processed and presented graphically is a valuable addition, since it enables that every organization benchmark results can be compared with each other (by creating interfaces that can communicate with the software that captures the measurements). This makes possible a raking between them, which would generate a healthy competition that motivates the improvement of each organization FM.
+
+Therefore, the central motivation for this work is to study the migration of facilities benchmarking to the cloud using the latest computing technologies and design a solution, where a cloud application would receive all important data from multiple sources, this data will correspond of various metrics necessary for the calculation of a set of KPIs that will be identified through an analysis of related work. Through the previous information, the solution would also carry out a benchmark comparison between distinct organizations in the industry according to the obtained Key Performance Indicators (KPIs).
+
+\subsection{Motivation}
+
+Consider a cloud solution that aggregates benchmarking information of distinct facilities, and ranks them according to their performance. Facilities managers would have a deeper insight of their own FM areas. 
+%Facilities would be more and more optimized, in a way that they would compete healthily between them for a better FM in their organizations.
+
+\begin{quote}
+	{\bf Scenario 1} Consider an organization that has applied FM and where benchmarking has been applied for some time now. This organization decides to use the application proposed in this document. Through it, verifies that its position is raking well below than expected. Thus, seeing their ranking, they become motivated to improve (as they have a perception of their space for improvement) both globally and at the level of a particular indicator.
+\end{quote}
+
+\begin{quote}
+	{\bf Scenario 2} Consider two distinct organizations that are using the cloud application presented in this document. The first organization has been on the raking first place for some time now. However, the second organization took their place in the raking, but the first organization wants to regain its position. Thus, it creates a healthy competition among participants (who do not know the identity of the other), where improvement is still driven dynamically.
+\end{quote}
+
+There are some solutions to address this goal, however, none of them are so simple to use. Today's solutions are difficult to use, information is difficult to read and understand, and none of them can give you your position in the market relatively your organizations competition.
+
+\subsection{Problem Statement}
+As we made clear before, there is not an agreement about which KPI should be applicable in each sector. According to Hinks and McNay \cite{Hinks1999}, the lack of generalized sets of data and industry wide sets of KPIs results on poor comparability of performance metrics across organizations and industries. Furthermore, there still is a lack of solutions for FM that enable integrating data from different organization in a way that brings gains for them. 
+Organizations continue to use distinct software to their FM and KPI gathering, which difficult the aggregation and analysis of all data. 
+
+Our hypothesis is that a cloud-based and vendor-independent FM solution for benchmarking will enable organizations to know their positioning and also to compare the performance of distinct facilities (in the case of facilities managed by the same entity), through a set of metrics provided by the facilities managers. To this end, it is also necessary to know what is the list of KPIs that should be used to benchmarking distinct facilities.
+
+
+\subsection{Methodology and Contributions}
+
+The methodology of this document will include the analysis of standard benchmarking surveys and the systematization of most commonly used indicators in FM. These indicators will undergo a prioritization to identify the most relevant. The prioritization will make use of scientific studies, existing standards for FM, and the help of FM experts, analyzing the most important indicators on a theoretical and practical level. Finally, the architecture of a cloud-based solution for FM benchmarking will be presented, that enables organizations to compare their results with others. More specifically, the contributions of this document are:
+\begin{itemize}
+	%\item explanation of the main subjects and concepts
+	\item A comparative study between the different Facilities Management standards
+	\item The evaluation and comparison between the main FM benchmarks and the indicators produced
+	\item The identification of the main benchmarking indicators of interest
+	\item A survey of the main FM tools
+	\item The design of the architecture of the cloud benchmarking application and its implementation.
+	%\item respective cloud application evaluation.
+\end{itemize}
+
